@@ -1,0 +1,33 @@
+
+body {
+    background-color: #181123;
+  
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+  }
+  #heading {
+    margin-top: 3em;
+    color: #8181F7; 
+  }
+  #d {
+    
+      margin-top: 60px;
+      color: silver; 
+      font-size: 35px;
+      border: 3px inset #2E9AFE;
+    height: auto;
+      width: 500px;
+      margin-left: 250px;
+    
+  }
+  
+  #continer {
+      margin-top: 60px;
+      color: silver; 
+      font-size: 40px;
+      border: 6px inset #2E9AFE;
+      padding: 10px;
+      width: 700px;
+      margin-left: 150px;
+    text-shadow: 3px 3px 3px #aaa;
+  }

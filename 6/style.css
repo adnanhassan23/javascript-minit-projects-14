@@ -1,0 +1,18 @@
+body {
+    background-color: #562E5C;
+    color: white;
+    text-align: center;
+    margin-top: 9%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #btn {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 14%;
+    height: 70px;
+    background-color: #36b55c;
+    font-size: 25px;
+    border-style: solid;
+    color: #000000; 
+  }

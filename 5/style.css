@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+body {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  overflow: hidden;
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+h1 {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+}
+
+button {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
+}
+
+h1, p {
+  text-align: center;
+}
+
+button {
+  padding: 5px 2px;
+  background: blue;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
